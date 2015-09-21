@@ -1,0 +1,46 @@
+/*
+	Author: Matthew J. Palomar
+*/
+
+
+* {
+/*	border: 1px solid green;																										/* DEBUG: to see border outlines */
+}
+
+
+html {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+.header {
+	text-align: right;
+	padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logo {
+	text-align: center;
+	padding-top: 109px;
+}
+
+form {
+	text-align: center;
+}
+
+#searchbox {
+	width: 484px;
+	height: 38px;
+	font: 16px arial,sans-serif;
+    line-height: 26px;
+    height: 26px;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}

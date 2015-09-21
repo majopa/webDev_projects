@@ -1,0 +1,30 @@
+html {
+    text-align: center;
+}
+
+input[type=button] {
+    margin: 0 3px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.wrapper {
+    margin: 20px auto;
+    width: 960px;
+}
+
+.button {
+    padding: 5px;
+}
+
+.grid {
+    margin: auto;
+    width: 960px;
+}
+
+.gBox {
+    margin: 0;
+    float: left;
+    background: black;
+}

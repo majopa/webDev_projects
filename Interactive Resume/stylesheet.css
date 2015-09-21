@@ -1,0 +1,112 @@
+/*
+	Author: Matthew J. Palomar
+*/
+
+* {
+	/*border: 1px dashed green;																										/* DEBUG: to see border outlines */
+}
+
+.proObjFrame:hover, .eduFrame:hover, .workHisFrame:hover, .proExFrame:hover, .techSkFrame:hover, .extraFrame:hover {				/* FOR TESTING/ADJUSTING PADDING ONLY */
+	/*border-color:red;*/
+}
+
+html {
+	font-family: Tahoma;
+	color: white;
+	background-image: url("background.jpg");
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: underline;
+	color: white;
+}
+
+span {
+	font-size: 19px;
+}
+	
+.nameFrame {
+    height: 55px;
+	width: 1100px;
+	
+	border-width: 3px;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: double;
+	
+	margin: auto;
+	margin-bottom: 6px;
+	
+	text-align: center;
+	
+	font-size: 18px;
+	font-family: Tahoma;
+	
+	display: none;	
+}
+
+.contactInfo {
+	height: 42px;
+	width: 1100px;
+
+	border-bottom-style: double;
+	
+	margin: auto;
+	margin-bottom: 6px;
+	
+	text-align: center;
+	vertical-align: middle;
+	
+	display: none;
+}
+
+.proObjFrame, .eduFrame, .workHisFrame, .proExFrame, .techSkFrame, .honorsFrame, .involveFrame, .hobbiesFrame {
+	width: 1100px;
+
+	border: 2px solid transparent;																		
+	
+	text-align: center; 
+	
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+}
+
+.proObjTitle, .eduTitle, .workHisTitle, .proExTitle, .techSkTitle, .honorsTitle, .involveTitle, .hobbiesTitle {
+	font-family: Tahoma;
+	font-size: 22px;
+}
+
+.proObjTable, .eduTable, .workHisTable, .proExTable, .techSkTable, .honorsTable, .involveTable, .hobbiesTable {
+	margin: auto;
+
+	text-align: auto; 
+
+	width: 900px;
+	display: none;
+}
+
+.workHisTable, .proExTable, .honorsTable, .involveTable, .hobbiesTable {
+	width: 800px;
+}
+
+.techSkTable, .eduTable {
+	width: 700px;
+}
+.honorsTable tr td:nth-child(2), .involveTable tr td:nth-child(2), .workHisTable tr td:nth-child(2) {
+	text-align: center;
+}
+
+.workHisTable, .techSkTable, .honorsTable, .involveTable, .hobbiesTable, .eduTable {
+	text-align: left; 
+}
+
+.proObjTitle:hover, .eduTitle:hover, .workHisTitle:hover, .proExTitle:hover, .techSkTitle:hover, .honorsTitle:hover, .involveTitle:hover, .hobbiesTitle:hover {
+	text-shadow: 0 0 8px #FFD700;
+} 
+
+.standardText {
+	margin-left: 8em;
+	margin-right: 8em;
+}
