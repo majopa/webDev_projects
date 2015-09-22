@@ -2,14 +2,7 @@
 	Author: Matthew J. Palomar
 */
 
-
-
-	window.onload = function() {					// JavaScript Test
-    alert( "Welcome to my Interactive Resume" );
-} 
-
-
-$(document).ready(function() {						/* Turns HTML document into JavaScript element and loads jQuery scripts as soon as the document is ready */
+$(document).ready(function() {
 	$(".nameFrame").fadeIn(800);
     $(".contactInfo").fadeIn(800);
     $(".proObjTitle").effect("slide", 900);
@@ -20,29 +13,29 @@ $(document).ready(function() {						/* Turns HTML document into JavaScript eleme
     $(".honorsTitle").effect("slide", 950);
     $(".involveTitle").effect("slide", 960);
     $(".hobbiesTitle").effect("slide", 970);
-    
+
     $(".proObjTitle").click(function() {
-    	$(".proObjTable").toggle("blind", 400); 	
+    	$(".proObjTable").toggle("blind", 400);
     });
     $(".eduTitle").click(function() {
-    	$(".eduTable").toggle("blind", 400); 	
+    	$(".eduTable").toggle("blind", 400);
     });
     $(".workHisTitle").click(function() {
-    	$(".workHisTable").toggle("blind", 400); 	
+    	$(".workHisTable").toggle("blind", 400);
     });
     $(".proExTitle").click(function() {
-    	$(".proExTable").toggle("blind", 400); 	
+    	$(".proExTable").toggle("blind", 400);
     });
     $(".techSkTitle").click(function() {
-    	$(".techSkTable").toggle("blind", 400); 	
+    	$(".techSkTable").toggle("blind", 400);
     });
     $(".honorsTitle").click(function() {
-    	$(".honorsTable").toggle("blind", 400); 	
+    	$(".honorsTable").toggle("blind", 400);
     });
     $(".involveTitle").click(function() {
-    	$(".involveTable").toggle("blind", 400); 	
+    	$(".involveTable").toggle("blind", 400);
     });
      $(".hobbiesTitle").click(function() {
-    	$(".hobbiesTable").toggle("blind", 400); 	
+    	$(".hobbiesTable").toggle("blind", 400);
     });
 });
