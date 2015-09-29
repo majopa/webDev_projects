@@ -8,19 +8,20 @@
 }
 
 /* FOR TESTING/ADJUSTING PADDING ONLY */
-.proObjFrame:hover, .eduFrame:hover, .workHisFrame:hover, .proExFrame:hover, .techSkFrame:hover, .extraFrame:hover {
+.proObjFrame:hover, .eduFrame:hover, .proExFrame:hover, .techSkFrame:hover, .extraFrame:hover {
 	/*border-color:red;*/
 }
 
 html {
 	font-family: Tahoma;
-	color: white;
+	color: black;
 	background-image: url("background.jpg");
 }
 
 a:link, a:visited, a:hover, a:active {
-	text-decoration: underline;
-	color: white;
+	font-style: italic;
+    text-decoration: none;
+	color: black;
 }
 
 span {
@@ -63,7 +64,7 @@ span {
 	display: none;
 }
 
-.proObjFrame, .eduFrame, .workHisFrame, .proExFrame, .techSkFrame, .honorsFrame, .involveFrame, .hobbiesFrame {
+.proObjFrame, .eduFrame, .proExFrame, .techSkFrame, .honorsFrame, .involveFrame, .hobbiesFrame {
 	width: 1100px;
 
 	border: 2px solid transparent;
@@ -75,12 +76,12 @@ span {
 	margin-bottom: 15px;
 }
 
-.proObjTitle, .eduTitle, .workHisTitle, .proExTitle, .techSkTitle, .honorsTitle, .involveTitle, .hobbiesTitle {
+.proObjTitle, .eduTitle, .proExTitle, .techSkTitle, .honorsTitle, .involveTitle, .hobbiesTitle {
 	font-family: Tahoma;
 	font-size: 22px;
 }
 
-.proObjTable, .eduTable, .workHisTable, .proExTable, .techSkTable, .honorsTable, .involveTable, .hobbiesTable {
+.proObjTable, .eduTable, .proExTable, .techSkTable, .honorsTable, .involveTable, .hobbiesTable {
 	margin: auto;
 
 	text-align: auto;
@@ -89,7 +90,7 @@ span {
 	display: none;
 }
 
-.workHisTable, .proExTable, .honorsTable, .involveTable, .hobbiesTable {
+.proExTable, .honorsTable, .involveTable, .hobbiesTable {
 	width: 800px;
 }
 
@@ -100,11 +101,11 @@ span {
 	text-align: center;
 }
 
-.workHisTable, .techSkTable, .honorsTable, .involveTable, .hobbiesTable, .eduTable {
+.proExTable, .techSkTable, .honorsTable, .involveTable, .hobbiesTable, .eduTable {
 	text-align: left;
 }
 
-.proObjTitle:hover, .eduTitle:hover, .workHisTitle:hover, .proExTitle:hover, .techSkTitle:hover, .honorsTitle:hover, .involveTitle:hover, .hobbiesTitle:hover {
+.proObjTitle:hover, .eduTitle:hover, .proExTitle:hover, .techSkTitle:hover, .honorsTitle:hover, .involveTitle:hover, .hobbiesTitle:hover {
 	text-shadow: 0 0 8px #FFD700;
 }
 
